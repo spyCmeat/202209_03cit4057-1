@@ -1,6 +1,16 @@
+from calendar import SATURDAY, weekday
+
+
 def answer(weekd, value):
     ret = 0
-    # END: You code here
+    if weekd == "Saturday":
+        ret = (value/100) *95
+    elif weekd == "Sunday":
+        ret = (value/100) *90
+    else:  
+        weekd != "saturday" or "Sunday"
+        ret = value
+
     return ret
 
 # Please don't change the code below!!!
