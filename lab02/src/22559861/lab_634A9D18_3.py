@@ -1,6 +1,12 @@
+from pickle import APPEND
+from re import I, S
+
+
 def answer(startNumber, endNumber ):
     ret = []
     # START: You code here
+    for num in range (startNumber,endNumber,2):
+        ret.append(num)
     # END: You code here
     return ret
 
