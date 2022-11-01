@@ -1,14 +1,6 @@
-from ast import If
-
-
 def answer(value):
     ret = ""
-    if value == 10:
-        print("hello")
-    else:
-        print("The number is not 10")
-
-
+    # START: You code here
     # END: You code here
     return ret
 
