@@ -1,8 +1,7 @@
 myInput = ["This ", "is ", "a ", "test ", "message."]
 
 def mergeString(inputList): 
-    mergeString="".join(myInput)
-    return mergeString
+    return ## <Write your code here>
  
 def main(): 
     aSentence = mergeString( myInput )
