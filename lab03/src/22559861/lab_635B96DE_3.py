@@ -3,10 +3,14 @@ STACK = "Hello world"
 def answer(needle):
     found = False
     # START: You code here
-    if needle in STACK:
-        found =True
-    if needle in STACK.lower():
-        found = True
+    STACK_lower =STACK.lower()
+    needle=needle.lower()
+    for letter in STACK_lower:
+        if needle in letter:
+            found=True
+            break
+
+
     
     # END: You code here
     return found
