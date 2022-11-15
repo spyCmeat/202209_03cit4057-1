@@ -1,13 +1,11 @@
-def answer():
-    ret = ""
+def answer(maxNumber):
     # START: You code here
-    ret= 'Hello\nMary\nHello\tMarry'  
     # END: You code here
-    return ret
 
 # Please don't change the code below!!!
 def main():
-    print( answer() )
+    value = int(input("Please enter the maximum value: "))
+    answer(value)
 
 if __name__ == "__main__":
     main()

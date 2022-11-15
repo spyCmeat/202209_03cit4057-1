@@ -1,13 +1,15 @@
-def answer():
+def answer(value):
     ret = ""
-    # START: You code here 
-    ret='\x50\x79\x74\x68\x6F\x6E' 
+    # START: 
+    if ( value != 10  ) :
+        ret = ("The number is not 10")
     # END: You code here
     return ret
 
 # Please don't change the code below!!!
 def main():
-    print( answer() )
+    value = float(input("Enter a number: "))
+    print( answer(value) )
 
 if __name__ == "__main__":
     main()
