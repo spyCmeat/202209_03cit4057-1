@@ -1,6 +1,6 @@
 APPLE_PRICE = 3
 ORANGE_PRICE = 6
-
+#ERROR IN LINE 11#
 def get_total(fruits, total):
     total = fruits[0] * APPLE_PRICE + fruits[1] * ORANGE_PRICE
     fruits = [1,1]
